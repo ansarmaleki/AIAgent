@@ -1,6 +1,6 @@
 # ALAgent
 
-A minimal command-line AI agent written in C# (.NET 9), with **zero NuGet dependencies**.
+A minimal command-line AI agent written in C# (.NET 10), with **zero NuGet dependencies**.
 It talks to any OpenAI-compatible `/chat/completions` endpoint, gives the model real tools
 (files, shell, web search), and gates every risky action behind a human yes/no prompt.
 
