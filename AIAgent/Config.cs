@@ -3,14 +3,12 @@ namespace ALAgent;
 /// <summary>Configuration, loaded from environment variables or a .env file.</summary>
 public sealed class AgentConfig
 {
-    public const string DefaultBaseUrl = "https://agentrouter.org/v1";
-    public const string DefaultModel = "glm-5.3";
-    // override with AGENT_UA if a gateway requires one of its known client User-Agents
+
     public const string DefaultUserAgent = "agent-cli/1.0.0";
 
     public string ApiKey { get; private set; } = "";
-    public string BaseUrl { get; private set; } = DefaultBaseUrl;
-    public string Model { get; private set; } = DefaultModel;
+    public string BaseUrl { get; private set; } 
+    public string Model { get; private set; } 
     public string UserAgent { get; private set; } = DefaultUserAgent;
 
     public static AgentConfig Load()
@@ -19,8 +17,8 @@ public sealed class AgentConfig
         return new AgentConfig
         {
             ApiKey = Environment.GetEnvironmentVariable("AGENT_API_KEY") ?? "",
-            BaseUrl = (Environment.GetEnvironmentVariable("AGENT_BASE_URL") ?? DefaultBaseUrl).TrimEnd('/'),
-            Model = Environment.GetEnvironmentVariable("AGENT_MODEL") ?? DefaultModel,
+            BaseUrl = (Environment.GetEnvironmentVariable("AGENT_BASE_URL")! ).TrimEnd('/'),
+            Model = Environment.GetEnvironmentVariable("AGENT_MODEL")! ,
             UserAgent = Environment.GetEnvironmentVariable("AGENT_UA") ?? DefaultUserAgent,
         };
     }
