@@ -1,0 +1,8 @@
+bin/
+obj/
+workspace/
+.env
+.env.*
+!.env.example
+eval_output.txt
+transcript.txt
