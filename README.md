@@ -18,7 +18,7 @@ It talks to any OpenAI-compatible `/chat/completions` endpoint, gives the model 
 
 ## Requirements
 
-- [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 - An API key for any OpenAI-compatible provider
 
 ## Configuration

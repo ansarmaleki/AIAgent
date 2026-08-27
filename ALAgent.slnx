@@ -1,1 +1,3 @@
-<Solution />
+<Solution>
+  <Project Path="ALAgent.csproj" />
+</Solution>
