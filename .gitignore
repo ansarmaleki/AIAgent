@@ -366,3 +366,5 @@ FodyWeavers.xsd
 /Si24.Health/EndPoint/Si24.Health.EndPoint/appsettings.json
 /Si24.Health/EndPoint/Si24.Health.EndPoint/appsettings.json
 /Si24.Health/EndPoint/Si24.Health.EndPoint/appsettings.json
+/AIAgent/.env
+/AIAgent/run.ps1
