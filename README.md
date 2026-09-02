@@ -1,4 +1,4 @@
-# ALAgent
+# AIAgent
 
 A minimal command-line AI agent written in C# (.NET 10), with **zero NuGet dependencies**.
 It talks to any OpenAI-compatible `/chat/completions` endpoint, gives the model real tools

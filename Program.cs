@@ -5,7 +5,7 @@
 //   dotnet run -- selftest              tool tests, no API key needed
 // Config: env vars (AGENT_API_KEY, AGENT_BASE_URL, AGENT_MODEL) or agent/.env.
 
-using ALAgent;
+using AIAgent;
 
 internal static class Program
 {

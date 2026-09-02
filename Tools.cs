@@ -4,7 +4,7 @@ using System.Text;
 using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 
-namespace ALAgent;
+namespace AIAgent;
 
 /// <summary>A tool takes its arguments (all normalized to strings) and returns a string result.</summary>
 public delegate string ToolFunc(Dictionary<string, string> args);

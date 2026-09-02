@@ -1,4 +1,4 @@
-namespace ALAgent;
+namespace AIAgent;
 
 internal sealed class SelfTest
 {

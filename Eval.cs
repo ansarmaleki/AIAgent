@@ -2,7 +2,7 @@ using System.Text;
 using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 
-namespace ALAgent;
+namespace AIAgent;
 
 /// <summary>Canned versions of every tool. Records each call; the in-memory
 /// filesystem makes write/read/edit behave consistently across turns.</summary>

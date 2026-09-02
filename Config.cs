@@ -1,4 +1,4 @@
-namespace ALAgent;
+namespace AIAgent;
 
 /// <summary>Configuration, loaded from environment variables or a .env file.</summary>
 public sealed class AgentConfig
